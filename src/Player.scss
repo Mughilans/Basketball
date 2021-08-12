@@ -1,0 +1,46 @@
+.form-container{
+    position: fixed;
+
+.input-container{
+    display: grid;
+    grid-gap: 10px;
+    width: 400px;
+    height: 300px;
+    //background-color: rgb(207, 207, 238);
+    margin: auto;
+
+    .form-input{
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+        border:1px solid hsl(0, 0%, 80%) ;
+    }
+    .form-error{
+        border-width: 1px ;
+        border-color: red ;
+        padding: 12px 2px;
+        .css-yk16xz-control{
+            border-color: red;
+        }
+    }
+
+    .savebutton{
+        width: 100px;
+        height: 40px;
+        background-color: rgb(148, 148, 228);
+        margin-left: 300px;
+    }
+    .error{
+        color: red;
+    }
+}
+}

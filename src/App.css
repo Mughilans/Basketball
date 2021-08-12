@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.tab-container{
+  position: relative;
+  margin-left: 90px;
+  width: 1300px;
+}
